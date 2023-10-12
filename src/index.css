@@ -34,3 +34,7 @@
 .bg-mic{
   background: linear-gradient(to right, #FBBF3B 0%, #EEA400 100%);
 }
+
+.bg-disable {
+  background-color: rgba(0, 0, 0, 0.5);
+}
