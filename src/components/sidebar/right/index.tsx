@@ -10,7 +10,7 @@ const Right = ()=>{
           <ul>
             {
               ["bg-[#E2F1EB]", "bg-[#DAE8F3]", "bg-[#FEE7E3]", "bg-[#E2F1EB]", "bg-[#DAE8F3]", "bg-[#FEE7E3]", "bg-[#E2F1EB]", "bg-[#DAE8F3]", "bg-[#FEE7E3]", "bg-[#E2F1EB]", "bg-[#DAE8F3]", "bg-[#FEE7E3]"]
-              .map((item, index)=><Item key={index} bg={item} title="This"/>)
+              .map((item, index)=><Item key={index} bg={item}/>)
             }
           </ul>
         </div>

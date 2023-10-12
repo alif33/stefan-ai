@@ -1,12 +1,11 @@
-import { useState } from "react"
+import React from "react"
 import './App.css'
 import { BrowserRouter, Routes, Route } from "react-router-dom"
 import Home from "./pages/Home"
 import NewChat from "./pages/NewChat"
 import Chat from "./pages/Chat"
 
-function App() {
-  const [count, setCount] = useState(0)
+const App:React.FC = ()=>{
 
   return (
     <BrowserRouter>
