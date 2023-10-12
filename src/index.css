@@ -1,0 +1,36 @@
+:root {
+  --primary: transparent;
+  --secondary: #efefef;
+}
+
+@tailwind base;
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--primary) var(--primary);
+}
+*::-webkit-scrollbar {
+  width: 8px;
+}
+
+*::-webkit-scrollbar-track {
+  background: var(--primary);
+  border-radius: 5px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: var(--secondary);
+  border-radius: 8px;
+  border: 3px solid var(--primary);
+}
+@tailwind components;
+@tailwind utilities;
+
+#root {
+  margin: 0 auto;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.bg-mic{
+  background: linear-gradient(to right, #FBBF3B 0%, #EEA400 100%);
+}
