@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-function MobileDrawer() {
+const MobileDrawer:React.FC<any> = ()=>{
   const [isDrawerOpen, setIsDrawerOpen] = useState(false);
 
   const toggleDrawer = () => {

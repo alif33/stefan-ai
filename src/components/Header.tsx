@@ -24,6 +24,7 @@ const Header = ()=>{
                         width={30}
                         className="order-3 sm:order-3 md:order-1"
                         src="/img/icons/Hamburger.svg"
+                        onClick={()=>setRightDrawer(!isRightDrawer)}
                     />
                     
                     <Link className="block order-2 sm:order-2 md:order-2" to="/">
