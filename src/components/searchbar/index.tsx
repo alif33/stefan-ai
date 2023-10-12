@@ -1,6 +1,6 @@
 const SearchBar = ()=>{
     return(
-        <div className="h-32 flex justify-between gap-5 px-5">
+        <div className="h-32 flex justify-between items-center sm:items-center md:items-start gap-5 px-5">
             <div className="basis-10/12">
                 <div className="bg-white flex justify-between h-[63px] w-auto px-3 rounded-full">
                     <div className="basis-1/12 flex justify-center items-center">
