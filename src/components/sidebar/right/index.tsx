@@ -2,7 +2,7 @@ import Item from "./Item"
 
 const Right = ()=>{
     return(
-      <div className="h-[calc(100vh-4rem)] col-span-3 pl-7">
+      <div className="h-[calc(100vh-4rem)] col-span-3 pl-7 hidden sm:hidden md:block">
         <div className="h-8">
           <h3 className="text-[#52525B] text-[15px] font-bold">AI Feelings</h3>
         </div>
