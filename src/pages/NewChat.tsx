@@ -8,7 +8,7 @@ const NewChat = ()=>{
           <h1 className="text-5xl font-bold">Hello again</h1>
           <p className="text-[#52525B] text-xl font-normal py-4">Tell me what’s on your mind, or pick a suggestion. I have limitations and won’t always get it right, but your feedback will help me improve.</p>
           <div className="w-10/12">
-            <div className="grid grid-cols-2 gap-2">
+            <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 gap-2">
               <Topic
                 title="Artists"
                 img="/img/icons/paint-brush.png"
