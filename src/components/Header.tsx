@@ -61,7 +61,7 @@ const Header = ()=>{
                 </div>
             </div>
             <LeftDrawer isLeftDrawer={isLeftDrawer} setLeftDrawer={setLeftDrawer}/>
-            <RightDrawer isRightDrawer={isRightDrawer}/>
+            <RightDrawer isRightDrawer={isRightDrawer} setRightDrawer={setRightDrawer}/>
         </div>
     )
 }
