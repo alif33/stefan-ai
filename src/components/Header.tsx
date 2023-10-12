@@ -2,7 +2,7 @@ import { Link } from "react-router-dom"
 
 const Header = ()=>{
     return(
-        <div className="bg-[#FBBF3B] h-16 -mb-2 sm:-mb-2 md:mb-4">
+        <div className="bg-[#FBBF3B] h-16 -mb-1 sm:-mb-1 md:mb-4">
             <div className="flex justify-between px-5">
                 <div className="w-full sm:w-full md:w-auto flex items-center justify-between sm:justify-between md:justify-normal gap-0 sm:gap-0 md:gap-5 h-16">
                     <img
