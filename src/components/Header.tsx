@@ -1,6 +1,12 @@
+import { useState } from "react";
 import { Link } from "react-router-dom"
+import LeftDrawer from "./drawer/left";
+import RightDrawer from "./drawer/right";
 
 const Header = ()=>{
+    const [isLeftDrawer, setLeftDrawer] = useState(false)
+    const [isRightDrawer, setRightDrawer] = useState(false)
+
     return(
         <div className="bg-[#FBBF3B] h-16 -mb-1 sm:-mb-1 md:mb-4">
             <div className="flex justify-between px-5">
@@ -10,6 +16,7 @@ const Header = ()=>{
                         width={30}
                         className="order-1 sm:order-1 md:order-3 block sm:block md:hidden"
                         src="/img/icons/chat.svg"
+                        onClick={()=>setLeftDrawer(!isLeftDrawer)}
                     />
 
                     <img
@@ -26,9 +33,7 @@ const Header = ()=>{
                             src="/img/logo.png"
                         />
                     </Link>
-                    
                 </div>
-
                 <div className="md:flex items-center h-16 gap-3 hidden sm:hidden">
                     <div className="bg-white h-[52px] w-[52px] rounded-full flex items-center justify-center">
                         <img
@@ -54,6 +59,8 @@ const Header = ()=>{
                     </div>
                 </div>
             </div>
+            <LeftDrawer isLeftDrawer={isLeftDrawer}/>
+            <RightDrawer isRightDrawer={isRightDrawer}/>
         </div>
     )
 }
