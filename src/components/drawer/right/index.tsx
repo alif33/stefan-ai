@@ -11,16 +11,16 @@ const RightDrawer: React.FC<DrawerProps> = ({ isRightDrawer, setRightDrawer }) =
     <div
       className={`${
         isRightDrawer ? 'translate-x-0' : 'translate-x-full'
-      } fixed top-0 right-0 w-full h-screen bg-white shadow-lg transform transition-transform duration-300 ease-in-out`}
+      } fixed top-0 right-0 w-full h-full bg-white shadow-lg transform transition-transform duration-300 ease-in-out`}
     >
-      <div className="flex h-screen overflow-y-scroll">
+      <div className="flex h-full">
             <div 
                 onClick={()=>setRightDrawer(!isRightDrawer)} 
                 className="w-3/12 min-w-fit min-h-fit bg-disable"
             >  
             </div>
-            <div className="w-9/12 min-h-screen bg-white relative">
-                <div className="pt-2 pl-2">
+            <div className="w-9/12 min-h-full bg-white relative">
+                <div className="pt-2 pl-2 h-full overflow-y-scroll">
                     <div className="h-8">
                         <h3 className="text-[#52525B] text-[15px] font-bold">AI Feelings</h3>
                     </div>
@@ -42,6 +42,7 @@ const RightDrawer: React.FC<DrawerProps> = ({ isRightDrawer, setRightDrawer }) =
                         </div>
                 </div>
             </div>
+           
         </div>
     </div>
   );
