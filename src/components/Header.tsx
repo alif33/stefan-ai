@@ -54,8 +54,8 @@ const Header = ()=>{
                             />
                         </div>
                         <div className="flex flex-col pr-3">
-                            <h2 className="m-0 p-0">Usman Zafar</h2>
-                            <h5 className="m-0 p-0">usmanzafar089@gmail.com</h5>
+                            <h2 className="tro text-sm font-bold">Usman Zafar</h2>
+                            <h5 className="tro text-sm font-normal">usmanzafar089@gmail.com</h5>
                         </div>
                     </div>
                 </div>

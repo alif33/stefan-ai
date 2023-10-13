@@ -16,7 +16,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
         <LeftSidebar/>
         <div className="h-[calc(100vh-4rem)] col-span-12 sm:col-span-12 md:col-span-7 bg-[#FAFAFA] rounded-xl ml-0 md:ml-2">
           <div className="flex flex-col">
-            <div className="h-[calc(100vh-12rem)] overflow-y-scroll">{children}</div>
+            <div className="h-[calc(100vh-12rem)] overflow-y-scroll">{ children }</div>
             <SearchBar/>
           </div>
         </div>

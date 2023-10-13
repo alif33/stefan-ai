@@ -1,7 +1,7 @@
 const SearchBar = ()=>{
     return(
-        <div className="h-32 flex justify-between items-center sm:items-center md:items-start gap-5 px-5">
-            <div className="basis-10/12">
+        <div className="h-32 flex justify-center items-center sm:items-center md:items-start gap-5 px-5">
+            <div className="basis-11/12">
                 <div className="bg-white flex justify-between h-[63px] w-auto px-3 rounded-full">
                     <div className="basis-1/12 flex justify-center items-center">
                         <img
@@ -25,13 +25,13 @@ const SearchBar = ()=>{
                    </div>
                 </div>
             </div>
-            <div className="basis-2/12">
-            <div className="w-[63px] h-[63px] flex justify-center items-center rounded-full bg-mic">
-                <img
-                    src="/img/icons/mic.svg"
-                />
-            </div>
-            </div>
+            {/* <div className="basis-2/12">
+                <div className="w-[63px] h-[63px] flex justify-center items-center rounded-full bg-mic">
+                    <img
+                        src="/img/icons/mic.svg"
+                    />
+                </div>
+            </div> */}
         </div>
     )
 }

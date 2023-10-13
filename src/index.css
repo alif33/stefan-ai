@@ -3,6 +3,12 @@
   --secondary: #efefef;
 }
 
+@font-face {
+  font-family: 'SSPro';
+  src: url('/fonts/SourceSansPro-Regular.otf') format('opentype'); /* Specify the correct format */
+  /* You can also define font-weight, font-style, and other properties here if needed */
+}
+
 @tailwind base;
 
 * {
@@ -37,4 +43,8 @@
 
 .bg-disable {
   background-color: rgba(0, 0, 0, 0.5);
+}
+
+.tro {
+  font-family: 'TRPro', sans-serif;
 }

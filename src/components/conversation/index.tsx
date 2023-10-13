@@ -25,7 +25,7 @@ const Conversation = ()=>{
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum, cupiditate?</p>
                 </div>
                 <div className="flex gap-2 pt-5">
-                    <img
+                    {/* <img
                         height={24}
                         width={24}
                         className="cursor-pointer"
@@ -36,19 +36,19 @@ const Conversation = ()=>{
                         width={24}
                         className="cursor-pointer"
                         src="/img/icons/unlike.svg"
-                    />
+                    /> */}
                     <img
                         height={24}
                         width={24}
                         className="cursor-pointer"
                         src="/img/icons/copy.svg"
                     />
-                    <img
+                    {/* <img
                         height={24}
                         width={24}
                         className="cursor-pointer"
                         src="/img/icons/share.svg"
-                    />
+                    /> */}
                 </div>
             </div>
         </div>
